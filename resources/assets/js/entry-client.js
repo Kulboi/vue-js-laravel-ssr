@@ -1,3 +1,4 @@
 import { createApp } from './app'
 
-createApp().$mount('#app');
+const { app, router } = createApp();
+app.$mount('#app');
